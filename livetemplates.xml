@@ -1,0 +1,34 @@
+<template name="db" value="/**&#10; * @var array&#10; */&#10;private static $db = [&#10;    '$NAME$'    =&gt; '$END$'&#10;];" description="$db" toReformat="false" toShortenFQNames="true">
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="PHP" value="true" />
+  </context>
+</template>
+<template name="fieldlabels" value="/**&#10; * @param bool $includerelations&#10; * @return array&#10; */&#10;public function fieldLabels($includerelations = true)&#10;{&#10;    $labels = parent::fieldLabels($includerelations);&#10;&#10;    $END$&#10;    &#10;    return $labels;&#10;}" description="fieldLabels()" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="PHP" value="true" />
+  </context>
+</template>
+<template name="getcms" value="public function getCMSFields()&#10;{&#10;    $fields = parent::getCMSFields();&#10;    &#10;    $END$&#10;    &#10;    return $fields;&#10;}    " description="getCMSFields" toReformat="true" toShortenFQNames="true">
+  <context>
+    <option name="PHP" value="true" />
+  </context>
+</template>
+<template name="hm" value="/**&#10; * @var array&#10; */&#10; private static $has_many = [&#10;    '$NAME$'    =&gt; '$END$'&#10;];" description="$has_many" toReformat="true" toShortenFQNames="true">
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="PHP" value="true" />
+  </context>
+</template>
+<template name="ho" value="/**&#10; * @var array&#10; */&#10; private static $has_one = [&#10;    '$NAME$'    =&gt; '$END$'&#10;];" description="$has_one" toReformat="false" toShortenFQNames="true">
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="PHP" value="true" />
+  </context>
+</template>
+<template name="mm" value="/**&#10; * @var array&#10; */&#10; private static $many_many = [&#10;    '$NAME$'    =&gt; '$END$'&#10;];" description="$many_many" toReformat="false" toShortenFQNames="true">
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="PHP" value="true" />
+  </context>
+</template>
